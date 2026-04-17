@@ -14,3 +14,13 @@ To validate the security, data integrity, and functional reliability of the Core
 * **Platform:** iOS 18.6.2 (Testing environment)
 * **Hardware:** HP Windows 10 pro
 * **Tools:** GitHub, SQL, Postman, 3uTools
+
+## 📂 Project Structure & Quick Links
+
+Aşağıdakı linklər vasitəsilə layihənin müxtəlif mərhələlərində hazırladığım sənədlərə sürətli keçid edə bilərsiniz:
+
+* 📑 **[Test Plan](./Documentation/Test_Plan.md)** - Layihənin ümumi strategiyası və risk analizi.
+* 🧪 **[Test Cases](./Test_Cases/Login_Cases.md)** - Login modulu üçün hazırlanmış pozitiv və neqativ ssenarilər.
+* 🔍 **[SQL Validation](./SQL_Validation/Database_Checks.sql)** - Backend məlumat dürüstlüyünü yoxlayan skriptlər.
+* 📡 **[API Testing](./API_Testing/Login_API_Validation.md)** - Postman üzərindən icra edilən API təhlükəsizlik testləri.
+* 🐛 **[Bug Reports](./Defects/BUG-001_Brute_Force.md)** - Tapılmış kritik təhlükəsizlik xətalarının sənədləşdirilməsi.
