@@ -17,7 +17,7 @@ Bu sənəd bank tətbiqinin Giriş (Login) modulunun təhlükəsizlik və funksi
 * **UI/UX:** iOS 18.6.2 standartlarına uyğun vizual və funksional yoxlanış.
 
 ## 4. Environment & Tools
-* **Device:** iPhone (iOS 18.6.2) / HP Laptop (Windows 11)
+* **Device:** iPhone (iOS 18.6.2) / HP Laptop (Windows 10 pro)
 * **Tools:** GitHub (Documentation), SQL (Backend validation), Postman (API Testing).
 * **Network:** VPN və Public Wi-Fi üzərindən təhlükəsizlik yoxlanışları.
 
