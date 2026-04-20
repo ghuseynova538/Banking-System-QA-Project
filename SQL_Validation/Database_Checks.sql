@@ -24,3 +24,13 @@ WHERE password NOT LIKE '$2y$%' -- BCrypt hash nümunəsi
 SELECT session_id, user_id, session_status 
 FROM user_sessions 
 WHERE logout_time IS NOT NULL AND session_status = 'ACTIVE';
+
+/* Ssenari: SQL Injection cəhdlərinin tapılması.
+İzah: Giriş sahələrində istifadə olunan şübhəli simvolları loqlarda axtarırıq.
+*/
+SELECT user_ip, login_input, attempt_time 
+FROM security_logs 
+WHERE login_input LIKE '%OR 1=1%' 
+   OR login_input LIKE '%--%' 
+   OR login_input LIKE '%;%';
+
